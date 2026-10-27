@@ -1,0 +1,20 @@
+{
+  "name": "pixelpass-contracts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PIXELPASS smart contracts (Hardhat)",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "chain": "hardhat node",
+    "deploy": "hardhat run scripts/deploy.js --network localhost",
+    "e2e": "hardhat run scripts/e2e.js --network localhost"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.29.1"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.6.1"
+  }
+}

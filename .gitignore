@@ -1,0 +1,10 @@
+node_modules/
+contracts/artifacts/
+contracts/cache/
+contracts/coverage/
+contracts/typechain-types/
+frontend/dist/
+*.log
+.env
+deployment.json
+.claude/

@@ -1,0 +1,26 @@
+{
+  "name": "pixelpass-frontend",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:sim": "node scripts/test-engine.mjs"
+  },
+  "dependencies": {
+    "@fontsource/press-start-2p": "5.2.5",
+    "@fontsource/vt323": "5.2.5",
+    "@noble/curves": "1.9.7",
+    "@noble/hashes": "1.8.0",
+    "qrcode.react": "4.2.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-router-dom": "6.30.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.7.0",
+    "vite": "6.4.1"
+  }
+}

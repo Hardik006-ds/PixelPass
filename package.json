@@ -1,0 +1,18 @@
+{
+  "name": "pixelpass",
+  "version": "2.0.0",
+  "private": true,
+  "description": "PIXELPASS: concert ticketing on a blockchain (concept demo running in the browser) with a half-pixelated UI",
+  "scripts": {
+    "setup": "npm --prefix frontend install",
+    "demo": "npm --prefix frontend run dev -- --open",
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "test": "npm --prefix frontend run test:sim",
+    "contracts:setup": "npm --prefix contracts install",
+    "contracts:test": "npm --prefix contracts test",
+    "contracts:chain": "npm --prefix contracts run chain",
+    "contracts:deploy": "npm --prefix contracts run deploy",
+    "contracts:e2e": "npm --prefix contracts run e2e"
+  }
+}
